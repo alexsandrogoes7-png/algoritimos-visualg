@@ -32,18 +32,20 @@ repita
       
       
       
-//tentei usar conectivo "e" para testar as duas condicoes, mas nao e possivel
+
            SE(sexo="F")ENTAO
              m<-m+1
-               se(idade>=25)entao
+
+               
                   mmaior<-mmaior+1
-                   se(idade<=30)entao
+                   se(idade>=25) e (idade<=30)entao
                      mmmaior<-mmmaior+1
                       se(cabelo="3")entao
                         mloira<-mloira+1
+                        
                       fimse
                    fimse
-                fimse
+
            FIMSE
 
 
