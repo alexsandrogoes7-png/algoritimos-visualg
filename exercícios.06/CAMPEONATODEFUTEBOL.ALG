@@ -30,7 +30,7 @@ inicio
         se(c1=c2)entao
            escreva()
         senao
-           escreval(time[c1]:12," [ ] x [ ] ",time[c2])
+           escreval(time[c1]:15," [ ] x [ ] ",time[c2])
         fimse
       fimpara
    fimpara
