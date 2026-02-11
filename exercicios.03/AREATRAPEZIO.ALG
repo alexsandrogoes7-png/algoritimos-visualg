@@ -15,7 +15,7 @@ inicio
    
    
    //Processamento
-   area<- (Bmaior+bmenor) * altura/2
+   area<- (Bmaior+bmenor)/2 * altura
    
    
    //Saida de Dados
